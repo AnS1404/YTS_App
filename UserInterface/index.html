@@ -2,13 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="download.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Transcript Summarizer</title>
+    <title>TranscripTrek</title>
+    
 </head>
 <body>
-    <div id="hero">
-        <h1>YouTube Transcript Summarizer</h1>
+    
+    
+    <div class="container">
+       
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                
+                <span class="topline">Introducing You To</span>
+                <h1><span class="multiText"></span></h1>
+                <p>YouTube Transcript Summarizer for summarizing youtube videos into text using youtube captions.</p>
+                <div class="btns">
+                    <button onclick="document.location='https://github.com/AnS1404/YTS_App'">GitHub LINK</button>
+                    <button>TAKE A LOOK</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                
+            </div>
+        </div>
+
     </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["TranscripTrek"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1200
+        })
+    </script>
     
 </body>
 </html>
