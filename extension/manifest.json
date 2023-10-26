@@ -15,7 +15,7 @@
             "48": "download.png",
             "128": "download.png"
         },
-        "default_popup": "popup.html"
+        "default_popup": "index.html"
     },
 
     "icons": {
